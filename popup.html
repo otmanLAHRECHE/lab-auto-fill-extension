@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lab Auto-Fill</title>
+  <style>
+    body {
+      width: 250px;
+      font-family: sans-serif;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    input[type="file"] {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h3>Load Lab Results</h3>
+  <input type="file" id="jsonFile" accept=".json">
+  <button id="fillButton">Fill Form</button>
+</body>
+<script src="popup.js"></script>
+</html>
